@@ -42,12 +42,4 @@ padding: 0 1em;
 nav li:not(:last-child){
 border-right:1px solid #888;
 }
-/* ul {
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-}
-li {
-  padding-right: 2em;
-} */
 </style>
