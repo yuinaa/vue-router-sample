@@ -1,5 +1,13 @@
 <template>
     <div class="test">
-        <h1>This is an test page</h1>
+        <p>TEST{{ $route.params.id }}</p>
     </div>
 </template>
+
+<script>
+export default {
+  mounted(){
+    console.log(this.$route)
+  }
+}
+</script>
